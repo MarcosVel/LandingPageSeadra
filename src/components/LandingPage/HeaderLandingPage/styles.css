@@ -1,0 +1,48 @@
+.headerLp {
+   display: flex;
+   width: 100%;
+   height: 90vh;
+   background-size: 100% 100%;
+   background-image: url(../../../assets/img/HeaderLP.png);
+   text-align: center;
+   align-items: center;
+}
+
+.logo {
+   max-width: 250px;
+   display: flex;
+   margin: auto;
+}
+
+.principalText { 
+   margin: auto;
+}
+
+.linkBtnSaibaMais {
+   margin: auto;
+}
+
+.btnSaibaMais,
+.btnSaibaMais:focus { 
+   width: 200px;
+   height: 50px;
+   font-size: 20px;
+   font-weight: bolder;
+   padding-left: 21px;
+   color: var(--s-dark-blue-color);
+   background-color: var(--s-green-pool-color);
+   transition: .4s;
+}
+
+.btnSaibaMais:hover,
+.btnSaibaMais:active {
+   border: 2px solid #fff !important;   
+   background-color: var(--s-dark-blue-color) !important;
+   color: #fff;
+}
+
+.arrowDown {
+   margin-left: 15px;
+}
+
+

@@ -1,0 +1,151 @@
+.vantagens{
+	margin-top: 50px;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	
+	--vantagens-transition: 0.5s;
+
+}
+.vantagens-content{
+	width: 75vw;
+	margin: 2vw auto;
+	display: flex;
+	flex-direction: row;
+
+	max-width: 1000px;
+}
+.vantagens-menu{
+	width: 50%;
+	height: 515px;
+}
+.SiteMockup{
+	width:  50%;
+	margin: 0px auto auto auto;
+}
+
+/*--*/
+.vantagens-option{
+	max-height: 80px;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	padding: 20px 5px 20px 10px;
+	transition: max-height 0.3s;
+}
+.vantagens-option-column{
+	display: flex;
+	flex-direction: column;
+	margin: 0px 10px 0px 10px;
+}
+
+/*-*/
+.v-dab{
+	margin-top: 8px;
+	background-color: #D4D3D9;
+	border: none;
+	border-radius: 100%;
+	width: 25px;
+	height: 25px;
+	display: flex;
+}
+.v-dab:focus{
+	outline: none;
+}
+.v-dai{
+	margin: auto;
+	fill: black;
+	width: 100%;
+	height: auto;
+}
+/*-*/
+.v-option-icon-div{
+	border: solid;
+	border-radius: 100px;
+	border-width: 2px;
+	border-color: black;
+	width: 100%;
+}
+.v-option-icon{
+	width: 40px;
+	height: 40px;
+	padding: 5px;
+}
+.v-vertical-bar{
+	width: 2px;
+	height: 100%;
+	margin: auto;
+	background-color: var(--s-green-pool-color);
+}
+
+/*-*/
+.v-option-title{
+	margin-top: 10px;
+	font-family: Roboto-Black;
+	color: black;
+}
+.vantagens-option-text{
+	margin-bottom: 1rem;
+	width: 90%;
+	font-family: Roboto-Light;
+	color: var(--s-green-pool-dark-color-2);
+	font-size: 0.9rem;
+	line-height: 0.9rem;
+}
+/*----*/
+.vantagens-option-enabled{
+	background-color: var(--s-dark-blue-color);
+	max-height: 400px;
+	transition: max-height 0.7s;
+	
+}
+.v-option-title-enabled{
+	color: var(--s-green-pool-color);
+
+}
+.v-dab-enabled{
+	background-color: #13253B;
+}
+.v-dai-enabled{
+	fill: var(--s-green-pool-color);
+	transform: rotate(180deg);
+}
+.v-option-icon-div-enabled{
+	fill: var(--s-green-pool-color);
+	border-color: var(--s-green-pool-color);
+}
+@media (min-width:2080px){
+	.vantagens-content{
+		width: 40vw;
+	}
+}
+
+@media (max-width:1024px) and (min-width:768px){
+	.vantagens-content{
+		width: 95%;
+	}
+}
+@media (max-width:768px){
+	.vantagens{
+		height: auto;
+		margin-bottom: 50px;
+	}
+	.vantagens-content{
+		width: 100vw;
+	}
+	.vantagens-menu{
+		width: 100vw;
+		margin-top: 80%;
+		height: auto;
+	}
+	.SiteMockup{
+		width: 80vw;
+		position: absolute;
+		z-index: -1;
+		margin-left: 20px;
+	}
+	/*-*/
+	.vantagens-option-text{
+		margin-bottom: 2rem;
+	}
+}

@@ -1,0 +1,19 @@
+.title2-div{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	width: 100vw;
+}
+.title2{
+	margin: auto;
+	font-family: Roboto-Bold;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.title2-underbar{
+	margin: auto;
+	width: 200px;
+	height: 2px;
+	background-color: lightgray;
+}

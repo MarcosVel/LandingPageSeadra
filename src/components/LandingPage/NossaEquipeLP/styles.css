@@ -1,0 +1,132 @@
+.NossaEquipeLP{
+	width: 100vw;
+	margin: 20px auto auto auto;
+	background-color: white;
+}
+.MembroEquipe-List{
+	width: 80vw;
+	height: 100%;
+	min-height: 200px;
+	display: flex;
+	margin: 40px auto;
+}
+.MembroEquipe{
+	margin-top: 10px;
+	width: 20vw;
+	height: 100%;
+	padding: 20px 0px;
+}
+.MembroEquipe-enabled{
+	background-color: var(--s-dark-blue-color);
+	color: var(--s-green-pool-color);
+	fill: var(--s-green-pool-color);
+}
+.MembroEquipe-nome-div{
+	display: flex;
+	color: black;
+}
+.MemberEquipe-nome-div-enabled{
+	color: var(--s-green-pool-color);
+}
+.MembroEquipe-nome{
+	margin: auto;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 1rem;
+	font-family: Roboto-Black;
+}
+.MembroEquipe-area-div{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	color: gray;
+}
+.MembroEquipe-area-div-enabled{
+	color: #fff;
+}
+.MembroEquipe-area{
+	text-align: center;
+	font-size: 0.8rem;
+	font-family: Roboto-Light;
+	padding-bottom: 8px;
+	margin: auto;
+}
+.horizontal-bar{
+	width: 50%;
+	height: 2px;
+	margin: auto;
+	background-color: var(--s-green-pool-color);
+}
+.MembroEquipe-text-div{
+	text-align: center;
+	width: 60%;
+	padding: 20px 0px;
+	margin: auto;
+}
+.MembroEquipe-text{
+	/* color: gray; -- Ve o que tu acha dele branco, acho que fica mais legível*/
+	color: #fff;
+	font-size: 0.76rem;
+
+}
+.MemberEquipe-icon-div{
+	margin: auto;
+	display: flex;
+	
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 100px;
+
+	width: 65px;
+	height: 65px;
+}
+.MembroEquipe-icon-div-enabled{
+	margin: auto;
+	border-color: var(--s-green-pool-color);
+}
+.MembroEquipe-icon{
+	width: 65%;
+	height: 65%;
+	margin: auto;
+}
+
+.MembroEquipe-button{
+	padding: 8px;
+	margin: auto;
+	display: flex;
+	background:none;
+	border: none;
+	width: 30px;
+	height: 30px;
+}
+.MembroEquipe-button:focus{
+	outline: none;
+}
+.down-arrow-icon{
+	margin: auto;
+	width: 20px;
+}
+
+.linkLinkedIn {
+	margin: auto;
+}
+
+.linkLinkedIn:hover {
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	/* width: 15vw;
+	margin: 10px 35px; */
+}
+@media (max-width: 1024px) {
+	.MembroEquipe-List{
+		margin: 20px auto 20px auto;
+		display:flex;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.MembroEquipe{
+		flex: 25%;
+		min-width: 50%;
+	}
+}

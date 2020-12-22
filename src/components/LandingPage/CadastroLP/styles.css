@@ -1,0 +1,61 @@
+.backgroundCadastro{
+	width: 100vw;
+	height: 250px;
+	background-color: var(--s-dark-blue-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.cadastro-title{
+	color: var(--s-green-pool-color);
+	font-family: Roboto-Black;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.divInput {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  font-size: 16px;
+}
+
+.inputEmail {
+  outline-width: 0;
+  font-weight: bold;
+  border: none;
+  padding: 0 10px;
+  border-radius: 5px 0 0 5px;
+  flex: 1;
+}
+
+.btnCadastroPeq {
+  background-color: var(--s-green-pool-color);
+  font-weight: bold;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  flex: 0.4;
+  transition: 180ms;
+}
+
+.btnCadastro:hover {
+  opacity: .9;
+}
+
+@media (max-width: 768px) {
+  .cadastro-title{
+    font-size: 2rem;
+    padding: 0 40px;
+  }
+  .divInput {
+    max-width: 300px;
+  }
+  .btnCadastroPeq {
+    flex: 0.5;
+  }
+}

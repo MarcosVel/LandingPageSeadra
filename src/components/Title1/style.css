@@ -1,0 +1,29 @@
+.title1{
+	width: 100%;
+}
+.title1-text{
+	display: flex;
+	font-family: 'Roboto-Black';
+	font-size: 2.3rem;
+	width: 80%;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+	font-weight: bold;
+}
+.title1-underbar{
+	width: 12.16%;
+	height: 1.2px;
+	margin: auto;
+	background-color: black;
+	float: bottom;
+}
+@media (max-width: 576px) {
+	.title1-text{
+		font-size: 1.8rem;
+	}
+	.title1-underbar{
+		width: 40%;
+		height: 2px;
+	}
+}

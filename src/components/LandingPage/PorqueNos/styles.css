@@ -1,0 +1,68 @@
+.porquenos{
+	width: 100vw;
+	height: 480px; /*A*/
+	background-color: var(--s-dark-blue-color);
+	display: flex;
+}
+.porquenos-img{
+	position: absolute;
+	width: 100vw;
+	height: 480px; /*A*/
+	background-size: 100% 150%;
+	background-position-y: -150px;
+	background-image: url(../../../assets/img/Importador.png);
+	opacity: 0.15;
+}
+.porquenos-content{
+	margin: auto;
+}
+.porquenos-div{
+	padding: 15px;
+	width: 100vw;
+	display: flex;
+	z-index:1;
+	margin: auto;
+}
+.porquenos-title{
+	color: var(--s-green-pool-color);
+	font-family: Roboto-Black;
+	font-size: 2.5rem;
+	margin: auto;
+	text-align: center;
+	z-index:2;
+}
+.porquenos-text{
+
+	width: 50vw;
+	color: white;
+	font-family: Roboto-light;
+	font-size: 1rem;
+	line-height: 1.1rem;
+	margin: auto;
+	text-align: center;
+	font-weight: lighter;
+	z-index:2;
+}
+@media (max-width: 768px) {
+	.porquenos{
+		height: 400px; /*B*/
+	}
+	.porquenos-img{
+		height: 400px; /*B*/
+		background-size: 110% 100%;
+		background-position-y: 0px;
+		background-position-x: -30px;
+		opacity: 0.13;
+	}
+	.porquenos-text{
+		width: 80vw;
+		font-size: 0.8rem;
+		line-height: 0.9rem;
+	}
+	.porquenos-div{
+		padding: 10px;
+	}
+	.porquenos-title{
+		font-size: 2.0rem;
+	}
+}
