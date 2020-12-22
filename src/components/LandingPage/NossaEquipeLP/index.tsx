@@ -5,7 +5,7 @@ import './styles.css';
 
 import Title1 from '../../Title1';
 
-import { ReactComponent as DownArrowIcon } from '../../../assets/icon/down-arrow.svg';
+// import { ReactComponent as DownArrowIcon } from '../../../assets/icon/down-arrow.svg';
 
 import { ReactComponent as LeonardoSurita } from '../../../assets/icon/LandingPage/Leonardo Surita.svg';
 import { ReactComponent as JoãoVicttor } from '../../../assets/icon/LandingPage/João Victtor.svg';
