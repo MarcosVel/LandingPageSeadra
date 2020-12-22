@@ -12,7 +12,7 @@ const FooterLandingPage = () => (
       <Container fluid>
          <Row>            
             <div className='divSocialFooter'>
-               <a href="https://www.instagram.com/seadra_trade/" target="_blank" rel="noopener noreferrer" className='borderSocialFooter'>
+               <a href="https://www.instagram.com/seadra.trade/" target="_blank" rel="noopener noreferrer" className='borderSocialFooter'>
                   <FaInstagram className='iconSocialFooter' />
                </a>
                <a href="https://www.linkedin.com/company/seadra-trade/" target="_blank" rel="noopener noreferrer" className='borderSocialFooter'>
